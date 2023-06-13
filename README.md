@@ -35,6 +35,3 @@ Finally, there is an option to open the .csv output in Excel right after the use
 
 ### Save user's settings
 I found it is more convenient if the program remembers the value for each option, so that user don't have to adjust these whenever they want to use the program. There are many file type can help to achieve this, such as .ini, .yaml, .xml, ... I chose .ini file type for its simplicity and quick time to implement.
-
-### Virtual envinroment (venv)
-Because this program uses many library, some are not standard Python library, and the syntax of each library could change in a future major update, I chose to create venv so the program will be stable if myself or anyone wants to use the program in the future. This is where requirements.txt file comes in, the file contains the name and the version of the library being used in the program. Now Python will now exactly which version of each package to use, preventing new bugs from appearing.
